@@ -1,0 +1,11 @@
+{
+  "scripts": {
+      "vercel-build": "npm run build",
+      "start": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+      "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+},
+
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}
